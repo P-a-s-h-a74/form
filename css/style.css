@@ -10,14 +10,19 @@ body{
   line-height: 1.4;
   margin: 0;
   font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #survey-form {
   background: rgb(132, 60, 200, 0.5);
   margin: auto 20rem auto 20rem;
-    padding: 2rem;
+  padding: 2rem;
   border-radius: 1%;
   text-align: left; 
+  min-width: 450px;
   } 
 
 .input-123{  
