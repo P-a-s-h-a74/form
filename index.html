@@ -5,82 +5,85 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="form.css">
 </head>
 
 
     <h1 id="title">freeCodeCamp Survey Form</h1>
   <p id="description">Thank you for taking the time to help us improve the platform</p><br>
      </head>
-    <body>
-    <form id="survey-form">
-     <div id="div"> 
-       <label for="name" id = "name-label"  >Name</label><br>
-        <input id="name" class="input-123" type="text"  placeholder="Enter your name" required> 
-      </div>
-      
-    <div>  
-      <label id = "email-label" for="email"  > Email</label><br>
-      <input id="email" class="input-123" type="email"   placeholder="Enter your email" required>
-    </div> 
-      
-     <div> 
-       <label id="number-label" for="age"  > Age (optional)</label><br>
-        <input id="number" class="input-123" type="number"  min="18" max="90" placeholder="Age" required>
-  </div>
-      
-  <div>
-     <p>Which option best describes your current role?</p>
-  <select id="dropdown" name="role" required>  
-    <option disabled selected value> Select current role</option>
-    <option>Student</option>
-    <option>Full Time Job</option>
-    <option>Full Time  Learner</option>
-    <option>Prefer not to say</option>
-    <option>Other</option>
-    </select>
- </div>
-      
- <div>   
-  <p>Would you recommend freeCodeCamp to a friend?</p> 
-      <label><input name="recommend"  type="radio" value="definitely" checked>Definitely
-      </label> <br>
-  <label><input name="recommend"  type="radio" value="maybe">Maybe
-      </label><br>
-   <label><input name="recommend"  type="radio" value="not sure">Not sure
-      </label> 
-   </div>
-      
- <div>
-   <p>What is your favorite feature of freeCodeCamp?</p><br>
-   <select required>
-     <option disabled selected value> Select on option</option> 
-     <option>Challenges</option>
-     <option>Projects</option>
-     <option>Community</option>
-     <option>Open Source</option>
-   </select>
-         </div>
-      
-    <div> 
-      <label>What would you like to see improved? (Check all that apply)</label><br>
-      <label for="front-end"><input id="Front-end"  value="front-end" type="checkbox" >Front-end Projects </label> <br>
-      <label for="back-end"><input value="back-end" type="checkbox" >Back-end Projects </label> <br>
-      <label for="data"><input  value="data" type="checkbox" >Data Visualization </label><br> 
-   </div>
-      
-   <div>
-        <label for="name" id = "name-label">Any comments or suggestions?</label><br>
-     <textarea id="comment"  type="text"  placeholder="Enter your comment here..." ></textarea>
-      </div>  
+     <body>
     
-      <div>
-        <button id="submit" type="submit" claas="sbmit">Submit</button>
-      </div>
-</form>
-<section>
- 
-
+      <form claas="survey-form" id="survey-form" >
+       <div id="div"> 
+         <label for="name" id = "name-label"  >Name</label>
+          <input id="name" class="input-123" type="text"  placeholder="Enter your name" required> 
+        </div>
+        
+      <div id="div">  
+        <label id = "email-label" for="email"  > Email</label><br>
+        <input id="email" class="input-123" type="email"   placeholder="Enter your email" required>
+      </div> 
+        
+       <div id="div">
+         <label id="number-label" for="age"  > Age (optional)</label><br>
+          <input id="number" class="input-123" type="number"  min="18" max="90" placeholder="Age" required>
+    </div>
+        
+    <div id="div">
+       <label>Which option best describes your current role?</label>
+    <select id="dropdown" name="role" required>  
+      <option disabled selected value> Select current role</option>
+      <option>Student</option>
+      <option>Full Time Job</option>
+      <option>Full Time  Learner</option>
+      <option>Prefer not to say</option>
+      <option>Other</option>
+      </select>
+   </div>
+        
+   <div id="div">   
+    <label>Would you recommend freeCodeCamp to a friend?</label><br>
+        <label><input name="recommend"  type="radio" value="definitely" checked>Definitely
+        </label> <br>
+    <label><input name="recommend"  type="radio" value="maybe">Maybe
+        </label><br>
+     <label><input name="recommend"  type="radio" value="not sure">Not sure
+        </label> 
+     </div>
+        
+   <div id="div">
+     <label>What is your favorite feature of freeCodeCamp?</label><br>
+     <select id="select" required>
+       <option disabled selected value> Select on option</option> 
+       <option>Challenges</option>
+       <option>Projects</option> 
+       <option>Community</option>
+       <option>Open Source</option>
+     </select>
+           </div>
+        
+      <div id="div"> 
+        <label>What would you like to see improved? (Check all that apply)</label><br>
+        <label for="front-end"><input id="Front-end"  value="front-end" type="checkbox" >Front-end Projects </label> <br>
+        <label for="back-end"><input value="back-end" type="checkbox" >Back-end Projects </label> <br>
+        <label for="data"><input  value="data" type="checkbox" >Data Visualization </label><br> 
+     </div>
+        
+     <div id="div">
+          <label for="name" id = "name-label">Any comments or suggestions?</label><br>
+       <textarea id="comment"  type="text"  placeholder="Enter your comment here..." ></textarea>
+        </div>  
+      
+        <div id="div">
+          <button id="submit" type="submit" claas="sbmit">Submit</button>
+        </div>
+  
+   </form>
+        </div>
+    </body>
+  </html>
+  
 
 
 
