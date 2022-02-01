@@ -2,46 +2,72 @@ body{
   font-family: 'Poppins', sans-serif;
   width: 100%;
   background: url(https://wl-adme.cf.tsp.li/resize/728x/jpg/4a1/c81/30d52c581db742197509da30df.jpg);
- background-size:cover;
-  
+ background-size:cover; 
   background-attachment:fixed;
   flex-direction: column;  
   text-align: center; 
   color: white;
   line-height: 1.4;
   margin: 0;
-  }
-  
-  #survey-form{
-    
-    background: rgb(132, 60, 200);
-    margin: auto 20rem auto 20rem;
-    padding: 3rem;
-    border-radius: 1%;
-    text-align: left;
-    }
-  
-  .input-123{  
-    border-radius: 10px;
-    border: none; 
-    outline: none;
-    width: 100%;
-    height: 2rem;
-    margin-top: 1rem;
-    } 
-  
-  .input-123:focus{
-   border: 2px solid #39c;
-    }
-  
-  #submit{
-    width: 100%;
-    background: rgb(113, 211, 113);
-    color: white;
+  font-size: 1.2rem;
+}
+
+#survey-form {
+  background: rgb(132, 60, 200, 0.5);
+  margin: auto 20rem auto 20rem;
+    padding: 2rem;
+  border-radius: 1%;
+  text-align: left; 
+  } 
+
+.input-123{  
+  border-radius: 10px;
+  border: none; 
+  outline: none;
+  width: 100%;
+  height: 2rem;
+ 
+  } 
+
+.input-123:focus {
+ border: 2px solid #39c;
   }
 
-  .fa-bug { color: #f15a22; }
+#div{
+ margin-top: 1rem;
+  opacity: 1 ;
+
+}
 
 
+#dropdown{
+  width:100%;
+  height: 2rem;
+  border: none; 
+  outline: none;
+  border-radius: 10px;
+  }
 
+#select{
+  border-radius: 10px;
+  height: 2rem;
+  border: none; 
+  outline: none;
+  width: 100%;
+}
 
+#comment{
+  width: 100%;
+  height: 8rem;
+}
+
+#submit{
+  width: 100%;
+  background: rgb(113, 211, 113);
+  color: white;
+  height: 2.5rem;
+  border: none;
+  cursor: pointer;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  }
