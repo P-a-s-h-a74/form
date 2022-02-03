@@ -17,6 +17,8 @@ body{
 }
 
 #survey-form {
+  max-width: 100%;
+  height: auto;
   background: rgb(132, 60, 200, 0.5);
   margin: auto 20rem auto 20rem;
   padding: 2rem;
