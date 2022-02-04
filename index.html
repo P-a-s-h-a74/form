@@ -9,81 +9,79 @@
 
 
 
-    <h1 id="title">freeCodeCamp Survey Form</h1>
-  <p id="description">Thank you for taking the time to help us improve the platform</p><br>
+    <title>freeCodeCamp Survey Form</title>
+  
      </head>
      <body>
     
-      <form claas="survey-form" id="survey-form" >
-       <div id="div"> 
+      <h1 id="title">freeCodeCamp Survey Form</h1>
+  <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form class="survey-form" id="survey-form" >
+     <div class="divs"> 
          <label for="name" id = "name-label"  >Name</label>
           <input id="name" class="input-123" type="text"  placeholder="Enter your name" required> 
-        </div>
+     </div>
         
-      <div id="div">  
-        <label id = "email-label" for="email"  > Email</label><br>
+      <div class="divs">  
+        <label id = "email-label" for="email"  > Email</label>
         <input id="email" class="input-123" type="email"   placeholder="Enter your email" required>
       </div> 
         
-       <div id="div">
-         <label id="number-label" for="age"  > Age (optional)</label><br>
-          <input id="number" class="input-123" type="number"  min="18" max="90" placeholder="Age" required>
-    </div>
+      <div class="divs">
+         <label id="number-label" for="age"  > Age (optional)</label>
+          <input id="age" class="input-123" type="number"  min="18" max="90" placeholder="Age" required>
+      </div>
         
-    <div id="div">
-       <label>Which option best describes your current role?</label>
-    <select id="dropdown" name="role" required>  
-      <option disabled selected value> Select current role</option>
-      <option>Student</option>
-      <option>Full Time Job</option>
-      <option>Full Time  Learner</option>
-      <option>Prefer not to say</option>
-      <option>Other</option>
-      </select>
-   </div>
+      <div class="divs">
+         <label>Which option best describes your current role?</label>
+         <select id="dropdown" name="role" required>  
+           <option disabled selected value> Select current role</option>
+           <option>Student</option>
+           <option>Full Time Job</option>
+           <option>Full Time  Learner</option>
+           <option>Prefer not to say</option>
+           <option>Other</option>
+          </select>
+       </div>
         
-   <div id="div">   
-    <label>Would you recommend freeCodeCamp to a friend?</label><br>
+       <div class="divs">   
+       <label>Would you recommend freeCodeCamp to a friend?</label>
         <label><input name="recommend"  type="radio" value="definitely" checked>Definitely
         </label> <br>
-    <label><input name="recommend"  type="radio" value="maybe">Maybe
+      <label><input name="recommend"  type="radio" value="maybe">Maybe
         </label><br>
      <label><input name="recommend"  type="radio" value="not sure">Not sure
         </label> 
      </div>
         
-   <div id="div">
-     <label>What is your favorite feature of freeCodeCamp?</label><br>
+       <div class="divs">
+     <label>What is your favorite feature of freeCodeCamp?</label>
      <select id="select" required>
        <option disabled selected value> Select on option</option> 
        <option>Challenges</option>
        <option>Projects</option> 
        <option>Community</option>
        <option>Open Source</option>
-     </select>
+         </select>
            </div>
         
-      <div id="div"> 
-        <label>What would you like to see improved? (Check all that apply)</label><br>
-        <label for="front-end"><input id="Front-end"  value="front-end" type="checkbox" >Front-end Projects </label> <br>
-        <label for="back-end"><input value="back-end" type="checkbox" >Back-end Projects </label> <br>
-        <label for="data"><input  value="data" type="checkbox" >Data Visualization </label><br> 
-     </div>
+         <div class="divs"> 
+        <label>What would you like to see improved? (Check all that apply)</label>
+        <label for="front-end"><input id="front-end"  value="front-end" type="checkbox" >Front-end Projects </label> <br>
+        <label for="back-end"><input id="back-end" value="back-end" type="checkbox" >Back-end Projects </label> 
+        <label for="data"><input  id= "data" value="data" type="checkbox" >Data Visualization </label>
+         </div>
         
-     <div id="div">
-          <label for="name" id = "name-label">Any comments or suggestions?</label><br>
-       <textarea id="comment"  type="text"  placeholder="Enter your comment here..." ></textarea>
+         <div class="divs">
+          <label for="comment" >Any comments or suggestions?</label>
+       <textarea id="comment"    placeholder="Enter your comment here..." ></textarea>
         </div>  
       
-        <div id="div">
-          <button id="submit" type="submit" claas="sbmit">Submit</button>
+        <div class="divs">
+          <button id="submit" type="submit" class="sbmit">Submit</button>
         </div>
   
    </form>
-        </div>
-    </body>
+        
+ </body>
   </html>
-  
-
-
-
