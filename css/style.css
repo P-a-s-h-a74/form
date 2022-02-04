@@ -19,7 +19,7 @@ body{
 }
 
 #survey-form {
-  max-width: 100%;
+  max-width: 80vw;
   height: auto;
   background: rgb(132, 60, 200, 0.5);
   margin: auto 20rem auto 20rem;
@@ -35,16 +35,14 @@ body{
   outline: none;
   width: 100%;
   height: 2rem;
-  .input-123:focus {
- border: 2px solid #39c;
-  }
+  
   } 
 
 .input-123:focus {
  border: 2px solid #39c;
   }
 
-#div{
+.divs{
  margin-top: 1rem;
   opacity: 1 ;
 
