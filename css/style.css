@@ -80,3 +80,13 @@ body{
   font-size: 1.1rem;
   border-radius: 10px;
   }
+@media only screen and (max-width: 768px) {
+.wrapper{
+    width: 320px; 
+}
+
+*{
+    transition:all.2s;
+}
+
+}
