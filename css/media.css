@@ -1,0 +1,10 @@
+@media only screen and (max-width: 480) {
+.wrapper{
+    width: 320px; 
+}
+
+*{
+    transition:all.2s;
+}
+
+}
