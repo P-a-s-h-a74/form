@@ -1,2 +1,2 @@
 # Page - form, validation.
-## HTML, CSS.
+## HTML, CSS, Responsive Design.
